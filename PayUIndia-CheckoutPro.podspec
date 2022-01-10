@@ -8,11 +8,10 @@ Pod::Spec.new do |s|
   s.summary             = "The CheckoutPro SDK provides a complete Mobile Checkout solution for iOS Apps."
   s.description         = "The CheckoutPro experience allows you to integrate with the PayU PG with minimal integration effort and accept payments faster."
 
-  s.source              = { :git => "https://github.com/payu-intrepos/PayUCheckoutPro-iOS.git",
-                            :tag => "#{s.name}_#{s.version}"
+  s.source              = { :git => "https://github.com/rohitrvayuz/PayUCheckoutPro-iOS.git"
                           }
   
-  s.ios.deployment_target = "11.0"
+  s.ios.deployment_target = "12.0"
   s.vendored_frameworks = 'PayUCheckoutProKit/PayUCheckoutProKit.xcframework'
 
   s.dependency            'PayUIndia-CheckoutProBase', '~> 3.1'
